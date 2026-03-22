@@ -1,0 +1,114 @@
+/* body{
+    background-color: rgb(0, 0, 0);
+    color: aqua;
+}
+h1{
+    color: beige;
+}
+#headingone {
+    color: pink;
+}
+
+#box{
+    background-color: grey;
+}
+
+h2 {
+    text-align: center;
+    text-decoration:blue wavy underline;
+}
+h3 {
+    text-decoration: line-through;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#one{
+    font-size: 25px;
+    font-weight: bolder;
+}
+#two{
+    font-size: 10px; ;
+}
+
+#border{
+    background-color: purple;
+    height: 300px;
+    width: 300px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: aqua;
+    text-align: center;
+
+    border-radius:10% ;
+} */
+
+/* div{
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+    border: 2px solid black;
+    transition-property: all;
+    transition-duration: 2s;
+    background-color: orange;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}    */
+
+
+/* @media (max-width: 300px){
+    div{
+        background-color: green;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 400px){
+    div {
+        background-color: pink;
+
+    }
+}
+
+@media (min-width: 400px) and (max-width: 600px){
+    div {
+        background-color: red ;
+        
+    }
+}
+
+@media (min-width: 600px){
+    div{
+        background-color: blue; 
+    }
+ }  */
+
+ /* div:hover{
+    background-color: green;
+    color: aqua;
+    transform:scale(2);
+    
+ } */
+
+
+ .loader {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid #FFE66D;
+    border-top: 20px solid #4ECDC4;
+    animation: spinanimate 3s ease-in-out 0s infinite normal;
+ }
+
+@keyframes spinanimate {
+    from {
+        transform:rotate(0deg);
+    }
+
+    to{
+        transform:rotate(360deg);
+    }
+}
